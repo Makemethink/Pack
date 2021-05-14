@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Self promoting website for Yupsilan">
+    <meta name="author" content="Anonymous X">
+    <title>Yupsilan | Freelancing company</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssprogress.css">
+    <style media="screen">
+    *{
+      scroll-behavior: smooth;
+    }
+    .zindex-1 {
+      z-index: 1;
+    }
+     .welcome-area .header-text .left-text {
+         position: relative;
+         align-self: center;
+         margin-top: 10%;
+       }
+
+       .welcome-area .header-text h1 {
+         font-weight: 900;
+         font-size: 52px;
+         line-height: 80px;
+         letter-spacing: 1px;
+         color: #191a20;
+       }
+
+       .welcome-area .header-text h1 em {
+         font-style: normal;
+         color: #fba70b;
+       }
+
+       .welcome-area .header-text p {
+         font-weight: 600;
+         font-size: 20px;
+         color: #7a7a7a;
+         line-height: 30px;
+         letter-spacing: 0.25px;
+         margin-bottom: 40px;
+         position: relative;
+       }
+       a.main-button-slider {
+         font-size: 14px;
+         text-decoration: none;
+         border-radius: 25px;
+         padding: 15px 25px;
+         background-color: #fba70b;
+         text-transform: uppercase;
+         color: #fff;
+         font-weight: 600;
+         letter-spacing: 1px;
+         -webkit-transition: all 0.3s ease 0s;
+         -moz-transition: all 0.3s ease 0s;
+         -o-transition: all 0.3s ease 0s;
+         transition: all 0.3s ease 0s;
+       }
+
+       a.main-button-slider:hover {
+         background-color: #9c00ff;
+         color: white;
+       }
+
+
+
+       a.main-button:hover {
+         background-color: yellow;
+         color: black;
+       }
+
+       nav #hire{
+         margin-left: 10px;
+       }
+
+       @media (max-width: 575px){
+         nav #r #na{
+           margin-left: 20px;
+         }
+        nav #hire{
+           margin-left: 26px;
+         }
+          nav #r{
+            background-color: white;
+          }
+          nav #na:hover{
+            background-color: #dadada;
+          }
+           }
+
+            @media (max-width: 575px){
+               .hola{
+                 margin-top: 60px;
+               }
+
+            }
+           .footer-bottom-layout {
+           background: none repeat scroll 0 0;
+           padding: 10px 0;
+           text-align: center;
+           }
+
+           #testimonials {
+             padding-top: 100px;
+           }
+
+           #testimonials .item .testimonial-content {
+             background: url('hell.png');
+             margin-left: 60px;
+             padding: 50px 40px;
+             text-align: center;
+             border-radius: 5px;
+           }
+
+           #testimonials .item .testimonial-content ul li {
+             display: inline-block;
+             margin: 0px 1px;
+           }
+
+           #testimonials .item .testimonial-content ul li i {
+             color: #fff;
+             font-size: 13px;
+           }
+
+           #testimonials .item .testimonial-content h4 {
+             font-size: 22px;
+             margin-top: 20px;
+             color: black;
+           }
+
+           #testimonials .item .testimonial-content p {
+             color: #000;
+             font-style: italic;
+             font-weight: 200;
+             margin: 20px 0px 15px 0px;
+           }
+
+           #testimonials .item .testimonial-content span {
+             color: #000;
+             font-weight: 200;
+             font-size: 13px;
+           }
+
+           #testimonials .author img {
+             max-width: 120px;
+             margin-bottom: -60px;
+           }
+
+           .owl-carousel .owl-nav button.owl-next span {
+             z-index: 10;
+             top: 45%;
+             border-radius: 10px;
+             font-size: 46px;
+             color: #000;
+             right: -210px;
+             width: 80px;
+             height: 80px;
+             line-height: 80px;
+             text-align: center;
+             display: inline-block;
+             background:#37febd;
+             position: absolute;
+           }
+
+           .owl-carousel .owl-nav button.owl-prev span {
+             z-index: 9;
+             top: 30%;
+             border-radius: 10px;
+             font-size: 46px;
+             color: black;
+             right: -150px;
+             width: 80px;
+             height: 80px;
+             line-height: 80px;
+             text-align: center;
+             display: inline-block;
+             background: #7e57c2;
+             position: absolute;
+           }
+
+        .owl-carousel .owl-nav button.owl-prev span:hover{
+          background:orange;
+        }
+         .owl-carousel .owl-nav button.owl-next span:hover{
+           background: orange;
+         }
+           @media screen and (max-width: 1060px) {
+             .owl-carousel .owl-nav button.owl-next span {
+               border-radius: 10px;
+               font-size: 46px;
+               color: #000;
+               width: 50px;
+               right:0;
+               height: 50px;
+               line-height: 35px;
+               outline: none !important;
+               position: relative;
+               margin: 10px;
+             }
+
+             .owl-carousel .owl-nav button.owl-prev span {
+               border-radius: 10px;
+               font-size: 46px;
+               color: #000;
+               width: 50px;
+               right:0;
+               height: 50px;
+               line-height: 35px;
+               position: relative;
+               margin: 10px;
+              }
+
+           }
+
+
+
+
+           @media (max-width: 900px) {
+             .features-item {
+               margin-bottom: 45px;
+             }
+             #testimonials .item .testimonial-content {
+               margin-left: 0px;
+             }
+             #testimonials .author img {
+               max-width: 120px;
+               margin-bottom: -25px;
+               margin-left:40%;
+             }
+           }
+           @media (max-width: 600px) {
+
+             #testimonials .author img {
+               margin-left:35%;
+             }
+           }
+
+         @media (max-width:400px){
+           #testimonials .author img {
+             display:none;
+           }
+         }
+           .features-item {
+             border-radius: 5px;
+             padding: 60px 30px;
+             text-align: center;
+             box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+           }
+
+           .features-item h2 {
+             z-index: 9;
+             position: absolute;
+             top: 15px;
+             left: 45px;
+             font-size: 100px;
+             font-weight: 600;
+             color: #fdefe9;
+           }
+
+           .features-item img {
+             z-index: 10;
+             position: relative;
+             max-width: 100%;
+             margin-bottom: 40px;
+           }
+
+           .features-item h4 {
+             margin-top: 0px;
+             font-size: 22px;
+             color: #1e1e1e;
+             margin-bottom: 25px;
+           }
+
+           .features-item .main-button {
+             margin-top: 35px;
+             display: inline-block;
+           }
+
+           #preloader {
+             overflow: hidden;
+             background-image: linear-gradient(145deg, #B3FFAB 0%, #12FFF7 100%);
+             left: 0;
+             right: 0;
+             top: 0;
+             bottom: 0;
+             position: fixed;
+             z-index: 9999;
+             color: #fff;
+           }
+
+           #preloader .jumper {
+             left: 0;
+             top: 0;
+             right: 0;
+             bottom: 0;
+             display: block;
+             position: absolute;
+             margin: auto;
+             width: 50px;
+             height: 50px;
+           }
+
+           #preloader .jumper > div {
+             background-color: #fff;
+             width: 10px;
+             height: 10px;
+             border-radius: 100%;
+             -webkit-animation-fill-mode: both;
+             animation-fill-mode: both;
+             position: absolute;
+             opacity: 0;
+             width: 50px;
+             height: 50px;
+             -webkit-animation: jumper 1s 0s linear infinite;
+             animation: jumper 1s 0s linear infinite;
+           }
+
+           #preloader .jumper > div:nth-child(2) {
+             -webkit-animation-delay: 0.33333s;
+             animation-delay: 0.33333s;
+           }
+
+           #preloader .jumper > div:nth-child(3) {
+             -webkit-animation-delay: 0.66666s;
+             animation-delay: 0.66666s;
+           }
+           @-webkit-keyframes jumper {
+             0% {
+               opacity: 0;
+               -webkit-transform: scale(0);
+               transform: scale(0);
+             }
+             5% {
+               opacity: 1;
+             }
+             100% {
+               -webkit-transform: scale(1);
+               transform: scale(1);
+               opacity: 0;
+             }
+           }
+
+           @keyframes jumper {
+             0% {
+               opacity: 0;
+               -webkit-transform: scale(0);
+               transform: scale(0);
+             }
+             5% {
+               opacity: 1;
+             }
+             100% {
+               opacity: 0;
+             }
+           }
+               .blockquote-custom {
+      position: relative;
+      font-size: 1.1rem;
+    }
+
+    .blockquote-custom-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: -25px;
+      left: 50px;
+    }
+    @media(max-width:576px){
+       #sum{
+         margin-top:100px;
+       }
+    }
+
+    </style>
+</head>
+<body class="" style="background:#cdcdcd20">
+<section class="Navbar_section">
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top navi" style="">
+        <a class="navbar-brand this text-dark" id="runs" href="#"><span class="brand"></span></a>
+        <button class="navbar-toggler border text-light" type="button" id="tog" data-toggle="collapse" data-target="#r">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-end" id="r"><ul class="navbar-nav"><li class="nav-item">
+        <a class="p-2 nav-link text-dark" id="na" href="#homy">Home</a></li><li class="nav-item">
+        <a class="p-2 nav-link text-dark" id="na" href="#see">About</a></li><li class="nav-item">
+        <a class="p-2 nav-link text-dark" id="na" href="#testimonials">Testimonials</a></li><li class="nav-item">
+        <a class="p-2 nav-link text-dark" id="na" href="#price">Pricing</a></li><li class="nav-item">
+        <button class="btn btn-info" data-toggle="modal" data-target="#mymodal" id="hire">Hire us</button></li></ul></div>
+    </nav>
+    <div class="modal fade " id="mymodal"role="dialog">
+              <div class="modal-dialog ">
+              <div class="modal-content ">
+              <div class="modal-header">
+              <h2 style="font-size:25px;">Check our <a href="#" style="color: orange;text-decoration: none">Fiverr</a>. profile</h2>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div><ul style="list-style: none;">
+              <li style="padding:10px"><a href="#"><span class="text-" style="font-size:18px">Fiverr</span></a></li>
+              <li style="padding:10px"><a href="#"><span style="font-size:18px" class="text-info">Instagram</span></a></li>
+              <li style="padding-top:10px; padding-left:10px"><a href="#"><span style="font-size:18px"class="text-danger">Twitter</span></a></li>
+            </ul>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div></div></div>
+    </div>
+</section>
+
+<section class="hero-section hero " id="homy" style="background-image: url(vec.png); height:100%">
+    <div class="container">
+       <div  style="height:400px;">
+
+       </div>
+    </div>
+
+    <div id="scene">
+      <img class="img-fluid hero-bg-1 up-down-animation" src="background-shape/feature-bg-2.png" alt="">
+      <img class="img-fluid hero-bg-2 left-right-animation" src="background-shape/seo-ball-1.png" alt="">
+      <img class="img-fluid hero-bg-3 left-right-animation" src="background-shape/seo-half-cycle.png" alt="">
+      <img class="img-fluid hero-bg-4 up-down-animation" src="background-shape/green-dot.png" alt="">
+      <img class="img-fluid hero-bg-5 left-right-animation" src="background-shape/blue-half-cycle.png" alt="">
+      <img class="img-fluid hero-bg-6 up-down-animation" src="background-shape/seo-ball-1.png" alt="">
+      <img class="img-fluid hero-bg-7 left-right-animation" src="background-shape/yellow-triangle.png" style="z-index:-10" alt="">
+      <img class="img-fluid hero-bg-8 up-down-animation" src="background-shape/service-half-cycle.png" style="z-index:-10" alt="">
+    </div>
+
+</section>
+
+<section id="see" style="background:url('tea.png') no-repeat">
+    <div class="jumbotron"  style="background:none; margin-top:-320px;">
+
+    <div class="row pt-4">
+    <div class="col-lg-4 mb-4">
+    <div class="text-center"><div id="scene">
+      <img class="img-fluid hero-bg-1 up-down-animation" src="background-shape/feature-bg-2.png" alt="">
+  </div>
+    <img src="hola.png" alt="" height="350px" width="320px">
+    </div>
+    </div>
+
+    <div id="example-6" class="examples p-4 col-lg-8">
+    <div class="cssProgress">
+      <div class="text-center"><div id="scene">
+      <img class="img-fluid hero-bg-2 left-right-animation" src="background-shape/seo-ball-1.png" alt="">
+      <img class="img-fluid hero-bg-3 left-right-animation" src="background-shape/seo-half-cycle.png" alt="">
+      <img class="img-fluid hero-bg-4 up-down-animation" src="background-shape/green-dot.png" alt="">
+      <img class="img-fluid hero-bg-5 left-right-animation" src="background-shape/blue-half-cycle.png" alt="">
+    </div></div>
+    <h5>Hardwares</h5>
+    <div class="progress2 mb-3">
+    <div class="cssProgress-bar cssProgress-primary cssProgress-active-right" data-percent="65" style="width: 65%;">
+    <span class="cssProgress-label" style="font-weight:800;"></span>
+    </div>
+    </div>
+    </div>
+    <div class="cssProgress">
+    <h5>Working</h5>
+    <div class="progress2 mb-3">
+    <div class="cssProgress-bar cssProgress-danger cssProgress-active-right" data-percent="85" style="width: 65%;">
+    <span class="cssProgress-label" style="font-weight:800;"></span>
+    </div>
+    </div>
+    </div>
+    <div class="cssProgress">
+    <h5>Internet</h5>
+    <div class="progress2 mb-3">
+    <div class="cssProgress-bar cssProgress-warning cssProgress-active-right" data-percent="55" style="width: 65%;">
+    <span class="cssProgress-label" style="font-weight:800;"></span>
+    </div>
+    </div>
+    </div>
+    <div class="cssProgress mb-3">
+    <h5>Typing</h5>
+    <div class="progress2">
+    <div class="cssProgress-bar cssProgress-info cssProgress-active-right" data-percent="75" style="width: 65%;">
+    <span class="cssProgress-label" style="font-weight:800;"></span>
+    </div>
+    </div>
+    </div>
+    <div class="cssProgress mb-3">
+    <h5>Programming</h5>
+    <div class="progress2">
+    <div class="cssProgress-bar cssProgress-success cssProgress-active-right" data-percent="95" style="width: 65%;">
+    <span class="cssProgress-label" style="font-weight:800;"></span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+ <h1 class="text-center" id="serve" style=" font-weight: 900; font-size: 40px; line-height: 80px; letter-spacing: 1px; color: #191a20;">Our<em style="color: orange">Services<em></h1>
+      <div class="px-3 py-5" >
+      <div class="row mb-2">
+      <div class="col-md-6 mb-3">
+ <div class="scene">
+    <img class="img-fluid hero-bg-1 up-down-animation" src="background-shape/feature-bg-2.png" alt="">
+    <img class="img-fluid hero-bg-3 left-right-animation" src="background-shape/seo-half-cycle.png" alt="">
+    <img class="img-fluid hero-bg-4 up-down-animation" src="background-shape/green-dot.png" alt="">
+  </div>
+      <div class="row no-gutters border rounded mb-4 shadow-sm">
+      <div class="col p-4 d-flex flex-column" style="background:url('hell.png')">
+      <strong class="d-inline-block mb-2 text-success">Service 1</strong>
+      <h3 class="mb-1 text-dark">Video Editz</h3>
+      <div class="mb-1 text-muted ">Gaming kind of videos for youtube</div>
+      <p class="card-text mb-auto mt-2  text-dark">we will edit twitch stream highlights and compilations of clips for your youtube channel.</p>
+      <a href="#" class="stretched-link mt-3">Check Me</a>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-md-6  mb-3">
+      <div id="scene">
+        <img class="img-fluid hero-bg-5 left-right-animation" src="background-shape/blue-half-cycle.png" alt="">
+        <img class="img-fluid hero-bg-6 up-down-animation" src="background-shape/seo-ball-1.png" alt="">
+        <img class="img-fluid hero-bg-7 left-right-animation" src="background-shape/yellow-triangle.png" alt="">
+      </div>
+      <div class="row no-gutters border rounded mb-4 shadow-sm" >
+      <div class="col p-4 d-flex flex-column" style="background:url('hell.png');">
+      <strong class="d-inline-block mb-2 text-success">Service 2</strong>
+      <h3 class="mb-1 text-dark">Vlog Editz</h3>
+      <div class="mb-1 text-muted">Vlog kind of videos for you</div>
+      <p class="card-text mb-auto mt-2 text-dark">We will edit your vlogs in a professional and funny way for your youtube channel.</p>
+      <a href="#" class="stretched-link mt-3">Check Me</a>
+      </div>
+      </div>
+      </div>
+ </div>
+</section>
+
+<section style="background:url('coffee.png') no-repeat; background-position:right;">
+    <div class="jumbotron" style="background:none; margin-top:-260px;">
+
+      <div class="py-5 px-3" >
+      <div class="row mb-2 hola">
+      <div class="col-md-6  mb-3">
+      <div class="row no-gutters border rounded mb-4 shadow-sm">
+      <div class="col p-4 d-flex flex-column" style="background:url('hell.png')">
+      <strong class="d-inline-block mb-2 text-success">Service 3</strong>
+      <h3 class="mb-1 text-dark">Youtube Editz</h3>
+      <div class="mb-1 text-muted">Highlights kind of videos for you</div>
+      <p class="card-text mb-auto mt-2 text-dark">We will edit funny gaming highlights videos for your youtube channel with a thumbnail.</p>
+      <a href="#" class="stretched-link mt-3">Check Me</a>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-md-6  mb-3">
+      <div class="row no-gutters border rounded mb-4 shadow-sm">
+      <div class="col p-4 d-flex flex-column" style="background:url('hell.png')">
+      <strong class="d-inline-block mb-2 text-success">Service 4</strong>
+      <h3 class="mb-1 text-dark">Podcasts Editz</h3>
+      <div class="mb-1 text-muted ">All sort of podcasts</div>
+      <p class="card-text mb-auto mt-2 text-dark">we will edit your podcasts and interviews videos professionally for your youtube channel.</p>
+      <a href="#" class="stretched-link mt-3">Check Me</a>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-md-6  mb-3">
+      <div class="row no-gutters border rounded mb-4 shadow-sm">
+      <div class="col p-4 d-flex flex-column" style="background:url('hell.png')">
+      <strong class="d-inline-block mb-2 text-success">Service 5</strong>
+      <h3 class="mb-1 text-dark">Long term</h3>
+      <div class="mb-1 text-muted ">All sort of Videos</div>
+      <p class="card-text mb-auto mt-2 text-dark">We will edit your video clips into an insane gaming montage video</p>
+      <a href="#" class="stretched-link mt-3">Check Me</a>
+      </div>
+      </div>
+      </div>
+      <div class="col-md-6  mb-3">
+      <div class="row no-gutters border rounded mb-4 shadow-sm">
+      <div class="col p-4 d-flex flex-column" style="background:url('hell.png')">
+      <strong class="d-inline-block mb-2 text-success">Service 6</strong>
+      <h3 class="mb-1 text-dark">Montage Editz</h3>
+      <div class="mb-1 text-muted ">All kinda videos</div>
+      <p class="card-text mb-auto mt-2 text-dark">This is a for a excusme dunno know what to write by the way additional content.</p>
+      <a href="#" class="stretched-link mt-3">Check Me</a>
+      </div>
+      </div>
+      </div>
+</div>
+
+<div id="testimonials">
+  <h1 class="text-center" style="margin-top:-100px; font-weight: 900; font-size: 40px; line-height: 80px; letter-spacing: 1px; color: #191a20;">Client<em style="color: orange">Words<em></h1>
+  <div class="row pt-3">
+              <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"><div id="scene">
+                  <img class="img-fluid hero-bg-1 up-down-animation" src="background-shape/feature-bg-2.png" alt="">
+                  <img class="img-fluid hero-bg-2 left-right-animation" src="background-shape/seo-ball-1.png" alt="">
+                  <img class="img-fluid hero-bg-3 left-right-animation" src="background-shape/seo-half-cycle.png" alt="">
+                  <img class="img-fluid hero-bg-4 up-down-animation" src="background-shape/green-dot.png" alt="">
+                  <img class="img-fluid hero-bg-5 left-right-animation" src="background-shape/blue-half-cycle.png" alt="">
+                  <img class="img-fluid hero-bg-6 up-down-animation" src="background-shape/seo-ball-1.png" alt="">
+                  <img class="img-fluid hero-bg-7 left-right-animation" src="background-shape/yellow-triangle.png" alt="">
+                  <img class="img-fluid hero-bg-8 up-down-animation" src="background-shape/service-half-cycle.png" alt="">
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item service-item">
+                        <div class="author">
+                            <i><img src="hola.png" style="border-radius:100px" alt="Author One"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <ul class="stars">
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning "></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                            </ul>
+                            <h4>Anonymous</h4>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                            <span>United States</span>
+                        </div>
+                    </div>
+                    <div class="item service-item">
+                        <div class="author">
+                            <i><img src="hola.png" style="border-radius:100px" alt="Second Author"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <ul class="stars">
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning "></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                            </ul>
+                            <h4 class="">Stranger</h4>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                            <span>United States</span>
+                        </div>
+                    </div>
+                    <div class="item service-item">
+                        <div class="author">
+                            <i><img src="hola.png" style="border-radius:100px" alt="Author Third"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <ul class="stars">
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning "></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                            </ul>
+                            <h4>Alienware</h4>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                            <span>United States</span>
+                        </div>
+                    </div>
+                    <div class="item service-item">
+                        <div class="author">
+                            <i><img src="hola.png" style="border-radius:100px" alt="Fourth Author"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <ul class="stars">
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning "></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                            </ul>
+                            <h4>Celestial</h4>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                            <span>Papua New Guinea</span>
+                      </div>
+                    </div>
+                    <div class="item service-item">
+                        <div class="author">
+                            <i><img src="hola.png" style="border-radius:100px" alt="Fifth Author"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <ul class="stars">
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning "></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                              <li><i class="fa fa-star text-warning"></i></li>
+                            </ul>
+                            <h4>Unidentified</h4>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                            <span>Thailand</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </div></div>
+</section>
+
+<section style="background:url('tea.png') no-repeat; margin-top:-200px" id="price">
+    <div class="jumbotron px-5" style="background:none;">
+  <h1 class="text-center" id="sum" style="margin-bottom: 50px;font-weight: 900; font-size: 40px; line-height: 80px; letter-spacing: 1px; color: #191a20;">Best<em style="color: orange">Pricing<em></h1>
+      <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 pb-3 col-xs-12">
+              <div class="features-item" style="background:url('hello.png')">
+                  <div class="features-icon">
+                      <h2 style="color:white">01</h2>
+                      <img src="icon-1.png" height="150px" alt="">
+                      <h4>Basic plan</h4>
+                      <p class="text-dark">Normal compilations with the basic Background music</p>
+                      <p class="text-dark">3 Days Delivery & 3 Revisions</p>
+
+                      <a href="#foots" class="btn btn-outline-primary">
+                          More Detail
+                      </a>
+                  </div>
+              </div>
+          </div>
+           <div class="col-lg-4 col-md-6 col-sm-12 pb-3 col-xs-12">
+              <div class="features-item" style="background:url('hello.png')">
+                  <div class="features-icon">
+                      <h2 style="color:white">02</h2>
+                      <img src="icon-1.png" height="150px" alt="">
+                      <h4>Standard plan</h4>
+                      <p class="text-dark">Normal + Audio effects, SFX and with memes editing</p>
+                      <p class="text-dark">4 Days Delivery & 5 Revisions</p>
+
+                      <a href="#foots" class="btn btn-primary">
+                          More Detail
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 pb-3 col-xs-12">
+              <div class="features-item" style="background:url('hello.png')">
+                  <div class="features-icon">
+                      <h2 style="color:white">03</h2>
+                      <img src="icon-1.png" height="150px" alt="">
+                      <h4>Premium plan</h4>
+                      <p class="text-dark">Advanced + Lower Third overlay, with intro & outro</p>
+                      <p class="text-dark">7 Days Delivery & Unlimited Revisions</p>
+
+                      <a href="#foots" class="btn btn-outline-primary">
+                          More Detail
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+
+<div class="container" style="margin-top:-50px">
+        <!-- FOR DEMO PURPOSE -->
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <header class="text-center">
+                  <h1 class="text-center" style="margin-bottom: 50px;font-weight: 900; font-size: 40px; line-height: 80px; letter-spacing: 1px; color: #191a20;">The<em style="color: orange">Remainder<em></h1>
+                    <div id="scene">
+                        <img class="img-fluid hero-bg-5 left-right-animation" src="background-shape/blue-half-cycle.png" alt="">
+                          <img style="z-index:-10" class="img-fluid hero-bg-6 up-down-animation" src="background-shape/seo-ball-1.png" alt="">
+                          <img class="img-fluid hero-bg-7 left-right-animation" src="background-shape/yellow-triangle.png" alt="">
+                        </div></header>
+            </div>
+        </div><!-- END -->
+
+        <div class="mx-auto px-4" style="max-width:600px">
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom p-5 shadow-lg rounded" style="background: url('hello.png')">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic text-dark">"Hey! you, yes you did you have still confusions don't worry <span class="text-primary">Shoot a message</span>."</p>
+                  <a href="#">  <button type="button" class="btn btn-outline-info mt-4 " name="button">Click us</button></a>
+                </blockquote><!-- END -->
+
+        </div>
+    </div>
+
+</section>
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+<footer class="footer-section footer" style="background-image: url(footer-bg.png);">
+    <div class="container" style="margin-top:-200px">
+      <div class="row" id="foots">
+        <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+          <!-- logo -->
+          <a href="#home">
+            <img class="img-fluid" style="" src="hola.png" alt="logo" height="100px" width="100px">
+            </a>
+        </div>
+        <!-- footer menu -->
+        <nav class="col-lg-8 align-self-center">
+          <ul class="list-inline text-lg-right text-center footer-menu">
+            <li class="list-inline-item pb-2"><a class=" p-2" style="font-weight:600;color:black; font-size:18px;" href="#homy">Home</a></li>
+            <li class="list-inline-item pb-2"><a class=" p-2" style="font-weight:600;color:black; font-size:18px;" href="#see">About</a></li>
+            <li class="list-inline-item pb-2"><a class=" p-2" style="font-weight:600;color:black; font-size:18px;" href="#serve">Services</a></li>
+            <li class="list-inline-item pb-2"><a class=" p-2" style="font-weight:600;color:black; font-size:18px;" href="#testimonials">Testimonial</a></li>
+
+            <li class="list-inline-item pb-2"><a class=" p-2" style="font-weight:600;color:black; font-size:18px;" href="#price">Pricing</a></li>
+        </nav>
+        <!-- footer social icon -->
+        <nav class="col-12">
+          <ul class="list-inline text-lg-right text-center social-icon">
+
+            <li class="list-inline-item">
+              <a class="Instagram" href="#"><i class="fab fa-twitter fa-2x text-dark p-3" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="Instagram" href="#"><i class="fab fa-instagram fa-2x text-dark p-3"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="Instagram" href="#"><b class=" text-dark p-3" style="font-size:20px;">Fiverr</b></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="Tele" href="https://t.me/StupidStranger"><i class="fab fa-telegram fa-2x  text-dark p-3"></i></a>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <p style="font-size:28px;color:black" class="text-center">Yourcompanyname<span>@gmail.com</span></p>
+    <div class="text-center mt-4 px-2" style="color:black ;font-size:15px">Copyright © 2021 Name here your company. All Rights Reserved.</div>
+</footer>
+<script src="scrollreveal.min.js"></script>
+<script src="custom.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+      $('#example-6').progress_fnc();
+      $('.progressStart').on('click', function() {
+        var perent = $(this).closest("div").attr("id");
+        $('#' + perent).progress_fnc({ type: 'start' });
+      });
+
+      $('.progressReset').on('click', function() {
+        var perent = $(this).closest("div").attr("id");
+        $('#' + perent).progress_fnc({ type: 'reset' });
+      });
+
+    });
+
+
+    (function($) {
+
+      $.fn.progress_fnc = function(options) {
+        var settings = $.extend({
+          type: 'start'
+        }, options);
+
+        var div = $(this);
+        var progress = div.find('.cssProgress');
+
+        progress.each(function() {
+          var self = $(this);
+          var progress_bar = self.find('.cssProgress-bar');
+          var progress_label = self.find('.cssProgress-label, .cssProgress-label2');
+          var progress_value = progress_bar.data('percent');
+          var percentage = parseInt(progress_value, 10) + '%';
+
+          progress_bar.css({'width': '0%', 'transition': 'none', '-webkit-transition': 'none', '-moz-transition': 'none'});
+
+          if(settings.type == 'start') {
+
+            progress_bar.animate({
+              width: percentage
+            }, {
+              duration: 5000,
+              step: function(x) {
+                progress_label.text(Math.round(x) + '%');
+              }
+            });
+
+          } else if(settings.type == 'reset') {
+            progress_bar.css('width', '0%');
+            progress_label.text('0%');
+          }
+
+        });
+      }
+
+    }(jQuery));
+
+    </script>
+    <script>
+
+        (function ($) {
+
+        	"use strict";
+        	$('.owl-carousel').owlCarousel({
+        		loop: true,
+        		margin: 30,
+        		nav: true,
+        		pagination: true,
+            autoplay: true,
+            dots:true,
+            autoplayTimeout: 5000,
+            smartSpeed: 450,
+        		responsive: {
+        			0: {
+        				items: 1
+        			},
+        			600: {
+        				items: 1
+        			},
+        			1000: {
+        				items: 2
+        			}
+        		}
+        	})
+
+        })(window.jQuery);
+
+
+    </script>
+    <script type="text/javascript">
+      $(window).scroll(function () {
+
+      if ($('.navi').offset().top > 100) {
+      $('.navi').addClass('nag');
+      } else {
+      $('.navi').removeClass('nag');
+      }
+
+      });
+      </script>
+      <script type="text/javascript" src="typed.js"></script>
+      <script type="text/javascript">
+      var typed = new Typed(".brand",{
+      strings: ["Here", "Place","Title"],
+      typeSpeed : 80,
+      backSpeed : 80,
+      loop: true
+      });
+</script>
+</body>
+</html>
